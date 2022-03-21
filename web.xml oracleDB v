@@ -1,0 +1,12 @@
+	# web.xml oracleDB v
+  
+  <!-- Connection Poll Setting-->
+		<Resource name="jdbc/OracleDB" 
+				  auth="Container" 
+				  type="javax.sql.DataSource" 
+				  username="system" password="1234" 
+				  driverClassName="oracle.jdbc.driver.OracleDriver" 
+				  url="jdbc:oracle:thin:@localhost:xe"
+				  factory="org.apache.tomcat.dbcp.dbcp2.BasicDateSourceFactory"
+				  maxActive="100"
+				  maxIdle="20"/>
