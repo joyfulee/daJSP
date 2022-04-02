@@ -6,7 +6,7 @@
 				  type="javax.sql.DataSource" 
 				  username="system" password="1234" 
 				  driverClassName="oracle.jdbc.driver.OracleDriver" 
-				  url="jdbc:oracle:thin:@localhost:xe"
+				  url="jdbc:oracle:thin:@localhost:1521:xe"
 				  factory="org.apache.tomcat.dbcp.dbcp2.BasicDateSourceFactory"
 				  maxActive="100"
 				  maxIdle="20"/>
